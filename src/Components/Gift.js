@@ -2,21 +2,13 @@ import { Link } from "react-router-dom";
 
 function Gift({ gift }) {
   return (
-    <tr>
-      <td>
-        {gift.is_favorite ? (
-          <span>✅</span>
-        ) : (
-          <span>&nbsp; &nbsp; &nbsp;</span>
-        )}
-      </td>
-      <td>
-      
-      </td>
-      <td>
+    <div className="Gift">
+      <p>
+       {gift.is_favorite ? <span>✅</span> : null} {gift.name}
+    
         <Link to={`/gifts/${gift.id}`}>✏️</Link>
-      </td>
-    </tr>
+      </p>
+    </div>
   );
 }
 

@@ -11,6 +11,8 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import New from "./Pages/New";
 import Index from "./Pages/Index";
+import Show from "./Pages/Show";
+import Edit from "./Pages/Edit";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/" element={<Home />}/>
           <Route path="/gifts" element={<Index />}/>
           <Route path="/gifts/new" element={<New />}/>
+          <Route path="gifts/:id" element={<Show />}/>
+          <Route path="/gifts/:id/edit" element={<Edit />} />
         </Routes>
         </main>
         </Router>

@@ -69,7 +69,7 @@ export default function GiftNewForm() {
           value={gift.name}
           type="text"
           onChange={handleTextChange}
-          placeholder="Name of the gift"
+          placeholder=""
           required
         />
         <label htmlFor="brand">Brand:</label>

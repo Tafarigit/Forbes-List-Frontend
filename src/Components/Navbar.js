@@ -7,6 +7,10 @@ import { Link } from 'react-router-dom';
             <button>
                 <Link to="/gifts">Gifts</Link>
             </button>
+            <button>
+                <Link to="/gifts/new">New Gift</Link>
+            </button>
+            
         </div>
     )
 }

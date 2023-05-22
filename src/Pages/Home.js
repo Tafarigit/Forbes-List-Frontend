@@ -1,7 +1,7 @@
 function Home() {
     return (
       <div>
-        <h2>Welcome to House of Swag!</h2>
+        <h2>Click the Gifts button our Inventory</h2>
       </div>
     );
   }

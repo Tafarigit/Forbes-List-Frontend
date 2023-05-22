@@ -3,7 +3,7 @@ import Gifts from "../Components/Gifts";
 function Index() {
   return (
     <div className="Index">
-      <h2>Index</h2>
+      <h1>Take a look at our goods</h1>
       <Gifts />
     </div>
   );
