@@ -76,7 +76,6 @@ export default function GiftNewForm() {
         <input
           id="brand"
           type="text"
-          pattern="http[s]*://.+"
           required
           value={gift.brand}
           placeholder=""
