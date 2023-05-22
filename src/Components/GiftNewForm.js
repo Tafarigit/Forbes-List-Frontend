@@ -76,10 +76,10 @@ export default function GiftNewForm() {
         <input
           id="brand"
           type="text"
-          required
           value={gift.brand}
           placeholder=""
           onChange={handleTextChange}
+          required
        
         
         />
